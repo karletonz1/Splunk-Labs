@@ -71,7 +71,7 @@ Applications and Virtual Machines
 
 ## Success Criteria
 
-The following screenshots are culmination of various steps and prerequisites that were configured in order to successfully achieve the goal of Splunk Labs. To build a simple cross platform lab that proves the ability to forward logs from endpoints to a distributed cluster environment.
+The following screenshots are the culmination of various steps and prerequisites that were configured in order to successfully achieve the goal of Splunk Labs. To build a simple cross platform lab that proves the ability to forward logs from endpoints to a distributed cluster environment.
 
 ### Windows 2022 Server
 
