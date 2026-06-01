@@ -246,13 +246,13 @@ The Domain Controller will be used as the central stratum 1 time source for Splu
 
 Verification of initial configuration of the DC as an NTP stratum 1 source can be found in the [appendix_d_ntp](../1_2_verification_and_testing/appendix_d_ntp.md) section. This page also includes verification of NTP settings for the following devices:
 
-:white_check_mark: karlo-splunk-mgmt
-:white_check_mark: karlo-splunk-indexer01
-:white_check_mark: karlo-splunk-indexer02
-:white_check_mark: karlo-splunk-sh
-:white_check_mark: karlo-splunk-kvm
-:white_check_mark: karlo-central-switch
-:white_check_mark: karlo-remote-router
+:white_check_mark: karlo-splunk-mgmt  
+:white_check_mark: karlo-splunk-indexer01  
+:white_check_mark: karlo-splunk-indexer02  
+:white_check_mark: karlo-splunk-sh  
+:white_check_mark: karlo-splunk-kvm  
+:white_check_mark: karlo-central-switch  
+:white_check_mark: karlo-remote-router  
 
 ### 6.2 DHCP
 
