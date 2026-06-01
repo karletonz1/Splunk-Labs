@@ -124,7 +124,7 @@ The following are the virtual machines or virtual network devices deployed in GN
 
 ### 2.2 GNS3 Resource Allocations
 
-The physical hardware limitation of my PC acting as a hypervisor heavily determined the number of VMs I could create to simulate a sufficiently complex enterprise Splunk environment. Consideration was given to the roles that each component plays and whether or not concessions could be made in order to successfully deliver a working proof-of-concept, fully aware that it does not meet Splunk recommended resources that would be required in a true production environment.
+The physical hardware limitation of my bare-metal host (PC) restricted the number of VMs I could create to simulate a sufficiently complex enterprise Splunk environment. Consideration was given to the roles that each component plays and if concessions could be made, fully aware that it does not meet Splunk recommended resources that would be required in an actual production environment.
 
 Some considerations and concessions were:
 
@@ -132,10 +132,10 @@ Some considerations and concessions were:
 
 - The Management Node and Search Head were set at 5GB.
 
-- Endpoint servers and workstations were set at their minimums. 
+- Endpoint servers and workstations were set at their minimums.  
 
 >[!NOTE]  
-> I needed to free up memory and decided to combine the Cluster Manager node as the 4th role within the Management Host. This made sense since the Monitoring Console, Agent Manager, and License Manager were all management functions. This allowed the search head to be on its own dedicated 5GB VM due to the resource hungry nature of this role.
+> I needed to free up memory and decided to combine the Cluster Manager node as the 4th role within the Management Host. This made sense since the Monitoring Console, Agent Manager, and License Manager were all management functions. This allowed the search head to be on its own dedicated 5GB VM.
 
 The total memory resource allocations (which was the limiting factor) were as follows:
 
