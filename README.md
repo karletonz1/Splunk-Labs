@@ -1,6 +1,6 @@
 # Project Splunk Labs | Proof of Concept Development Sandbox
 
-This is an active repository for a proof-of-concept deployment of a distributed Splunk model using a small enterprise, single search head with multiple indexer, architecture.
+This is an active repository for a proof-of-concept deployment of a distributed Splunk model using a single search head with multiple indexer architecture.
 
 ## Overview
 
