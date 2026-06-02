@@ -28,8 +28,8 @@
 
 ## Search Head
 
-![alt text](<../../03_assets/3_1_images/splunk_ui/Initial Splunk Success8.png>)  
+![alt text](../../03_assets/3_1_images/splunk_ui/windows_linux_forwarders_logs_final.png)  
 
 ## Peering Status between Search Head and Indexers  
 
-![alt text](<../../03_assets/3_1_images/splunk_ui/Splunk Peering from SH to Indexers.png>) 
+![alt text](<../../03_assets/3_1_images/splunk_ui/Splunk Peering from SH to Indexers.png>)  
