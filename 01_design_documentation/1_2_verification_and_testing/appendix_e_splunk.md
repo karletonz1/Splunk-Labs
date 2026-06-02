@@ -8,9 +8,9 @@
 
 ## Monitoring Console  
 
-![alt text](<../../03_assets/3_1_images/splunk_ui/Intial Splunk Success3.png>)  
+![alt text](<../../03_assets/3_1_images/splunk_ui/Initial Splunk Success3.png>)  
 
-![alt text](<../../03_assets/3_1_images/splunk_ui/subsequent success1.png>)  
+![alt text](<../../03_assets/3_1_images/splunk_ui/Initial Splunk Success11.png>)  
 
 ## Agent Management  
 
