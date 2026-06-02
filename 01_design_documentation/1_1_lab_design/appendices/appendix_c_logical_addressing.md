@@ -19,7 +19,7 @@ This document defines the logical architecture and IP addressing scheme.
 
 ### Central Switch IP Addresses
 
-| Hostname | GNS3 Port | Network Address | Network Type | IP Address | Broadcast Address | MTU | Description |
+| Hostname | GNS3 Port | Network Address | Address Type | IP Address | Broadcast Address | MTU | Description |
 | -------- | --------- | --------------- | ------------ | ---------- | ----------------- | --- | ---- |
 | karlo-central-switch | eth1 | 192.168.1.0/24 | Static | 192.168.1.96/24 | 192.168.1.255 | 1500 | PTP link between karlo-central-switch and management1 |
 | karlo-central-switch | eth7 | 10.10.1.0/24 | Static | 10.10.1.1/24 | 10.10.1.255 | 1500 | PTP link between karlo-central-switch and karlo-splunk-dc |
@@ -31,7 +31,7 @@ This document defines the logical architecture and IP addressing scheme.
 
 ### Server and Endpoint IP Addresses
 
-| Hostname | GNS3 Port | Network Address | Network Type | IP Address | Gateway | MTU | Description |
+| Hostname | GNS3 Port | Network Address | Address Type | IP Address | Gateway | MTU | Description |
 | -------- | --------- | --------------- | ------------ | ---------- | ----------------- | --- | ---- |
 | Management1 | NIC1 | 192.168.1.0/24 | DHCP | 192.168.1.100/24 | 192.168.1.96 | 1500 | PTP link between karlo-central-switch and Management1 |
 | karlo-splunk-dc | NIC1 | 10.10.1.0/24 | Static | 10.10.1.2/24 | 10.10.1.1 | 1500 | PTP link between karlo-central-switch and karlo-splunk-dc |
